@@ -63,27 +63,27 @@ Then it was trained different models for the separate dataset and the best resul
 The Results for the decision tree for luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data4.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data4.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 
 The Results for the Random Forest for non-luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data5.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data5.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 The Results for the Random Forest for luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data6.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data6.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 
 After seeing this results it was decided to train a model for complete dataset and see how it improve the results for decision tree it obtained the next results;
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data7.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data7.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 For Random Forest it was obtained the next ones:
@@ -95,13 +95,13 @@ For Random Forest it was obtained the next ones:
 It was decided that Random Forest was the best ones so it was decided to test for both of the type of cars and the results for non-luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data9.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data9.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 The results for luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data10.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data10.JPG" alt="Data" width=500 height=350> 
 </p>
 <br>
 At the end it was decided to use Lasso Model for luxury cars and Random Forest for non-luxury cars. Finally it was plotted the differences in percentage between real and predicted, For Random Forest the positive difference were:
