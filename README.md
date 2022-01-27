@@ -42,7 +42,7 @@ The code is finished and have been evaluated, the goal was partially completed s
 First it is needed to understand the dataset, so this summary was presented:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data.JPG" alt="Data" width=10000 height=600> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data.JPG" alt="Data" width=1000 height=253> 
 </p>
 <br>
 Here we can notice that dataset contains lots of features of cars and numerical or categorical variables. Also there are missing values so this will need to be treated.
