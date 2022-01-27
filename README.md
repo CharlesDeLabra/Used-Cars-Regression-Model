@@ -50,7 +50,7 @@ Here we can notice that dataset contains lots of features of cars and numerical 
 After processing data and handling missing values a new dataset can be showed which will be used for training models. The next dataset is:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data2.JPG" alt="Data" width=600 height=650> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data2.JPG" alt="Data" width=600 height=253> 
 </p>
 <br>
 
