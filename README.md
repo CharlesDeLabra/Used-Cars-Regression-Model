@@ -36,6 +36,99 @@ The program was written on Jupyter Notebooks in Python Language. You can access 
 
 The code is finished and have been evaluated, the goal was partially completed since the models were good enough to predict non-luxury cars but they lack data in order to predict luxury brands.
 
+## Analysis
+
+
+First it is needed to understand the dataset, so this summary was presented:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+Here we can notice that dataset contains lots of features of cars and numerical or categorical variables. Also there are missing values so this will need to be treated.
+
+After processing data and handling missing values a new dataset can be showed which will be used for training models. The next dataset is:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data2.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+
+Then it was trained different models for the separate dataset and the best result were the decision tree and the random forest. The Results for the decision tree for non-luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data3.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+The Results for the decision tree for luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data4.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+
+The Results for the Random Forest for non-luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data5.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+The Results for the Random Forest for luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data6.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+
+After seeing this results it was decided to train a model for complete dataset and see how it improve the results for decision tree it obtained the next results;
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data7.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+For Random Forest it was obtained the next ones:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data8.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+It was decided that Random Forest was the best ones so it was decided to test for both of the type of cars and the results for non-luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data9.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+The results for luxury cars were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data10.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+At the end it was decided to use Lasso Model for luxury cars and Random Forest for non-luxury cars. Finally it was plotted the differences in percentage between real and predicted, For Random Forest the positive difference were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data11.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+And the negative differences were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data12.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+For Lasso Regression the positive difference were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data13.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+And the negative differences were:
+<br>
+<p align="center">
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data14.JPG" alt="Data" width=600 height=650> 
+</p>
+<br>
+
 ## Conclusions
 
 - The training made with the complete dataset were good on non-luxury brands since the dataset contains more of this data
