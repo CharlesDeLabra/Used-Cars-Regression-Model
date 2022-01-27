@@ -32,3 +32,27 @@ It is needed to develop a price prediction model in order to be able to predict 
 
 The program was written on Jupyter Notebooks in Python Language. You can access to the code [here](https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/Regression_Code.ipynb)
 
+## Status
+
+The code is finished and have been evaluated, the goal was partially completed since the models were good enough to predict non-luxury cars but they lack data in order to predict luxury brands.
+
+## Conclusions
+
+- The training made with the complete dataset were good on non-luxury brands since the dataset contains more of this data
+- Simpler models were good with luxury cars
+- Random forest were the best model with complete dataset
+- All of the three simple model were equally good
+- Power, Mileage, Brands, Owner and Kilometers were the most important features
+- Tuning improved our results, specially RMSE
+- It was needed to fill some missing data in order to have better features
+- Skew data were removed with natural logaritm
+
+## Recomendations
+
+- It is needed to obtain more data about luxury cars
+- Use the model for luxury cars only as a guide since the results could be better
+- Since model of non-luxury cars had more than 90% of R-squared it is good to predict prices 
+- Use Lasso model for luxury cars and Random Forest for non-luxury cars
+
+
+
