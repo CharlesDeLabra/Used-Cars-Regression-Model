@@ -57,7 +57,7 @@ After processing data and handling missing values a new dataset can be showed wh
 Then it was trained different models for the separate dataset and the best result were the decision tree and the random forest. The Results for the decision tree for non-luxury cars were:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data3.JPG" alt="Data" width=250 height=250> 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data3.JPG" alt="Data" width=250 height=350> 
 </p>
 <br>
 The Results for the decision tree for luxury cars were:
