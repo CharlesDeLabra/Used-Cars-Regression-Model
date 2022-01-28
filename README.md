@@ -89,7 +89,7 @@ After seeing this results it was decided to train a model for complete dataset a
 For Random Forest it was obtained the next ones:
 <br>
 <p align="center">
-    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data8.JPG" alt="Data6" width=500 height=350z 
+    <img src="https://github.com/CharlesDeLabra/Used-Cars-Regression-Model/blob/main/imagen/data8.JPG" alt="Data6" width=500 height=350z>
 </p>
 <br>
 It was decided that Random Forest was the best ones so it was decided to test for both of the type of cars and the results for non-luxury cars were:
